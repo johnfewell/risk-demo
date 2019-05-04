@@ -46,12 +46,12 @@ let defaultConfig = require('tailwindcss/defaultConfig')()
 let colors = {
   'transparent': 'transparent',
 
-  'black': '#22292f',
+  'black': '#092030',
   'grey-darkest': '#3d4852',
   'grey-darker': '#606f7b',
   'grey-dark': '#8795a1',
   'grey': '#b8c2cc',
-  'grey-light': '#dae1e7',
+  'grey-light': '#f6f6f9',
   'grey-lighter': '#f1f5f8',
   'grey-lightest': '#f8fafc',
   'white': '#ffffff',
@@ -96,11 +96,11 @@ let colors = {
   'teal-lighter': '#a0f0ed',
   'teal-lightest': '#e8fffe',
 
-  'blue-darkest': '#12283a',
+  'blue-darkest': '#005E80',
   'blue-darker': '#1c3d5a',
   'blue-dark': '#2779bd',
   'blue': '#3490dc',
-  'blue-light': '#6cb2eb',
+  'blue-light': '#0094cc',
   'blue-lighter': '#bcdefa',
   'blue-lightest': '#eff8ff',
 
@@ -253,9 +253,9 @@ module.exports = {
 
   textSizes: {
     'xs': '.75rem',     // 12px
-    'sm': '.875rem',    // 14px
+    'sm': '.89rem',    // 14px
     'base': '1rem',     // 16px
-    'lg': '1.125rem',   // 18px
+    'lg': '1.185rem',   // 19px
     'xl': '1.25rem',    // 20px
     '2xl': '1.5rem',    // 24px
     '3xl': '1.875rem',  // 30px

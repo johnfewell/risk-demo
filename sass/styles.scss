@@ -1,5 +1,81 @@
 @tailwind preflight;
 
-
-
 @tailwind utilities;
+
+@font-face {
+  font-family: 'Gilroy-Bold ☞';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Gilroy-Bold ☞'), url('../fonts/Gilroy-Bold.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Gilroy-Regular ☞';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Gilroy-Regular ☞'), url('Gilroy-Regular.woff') format('woff');
+}
+
+.hero {
+  background-image: url('/images/stock-hero.jpg');
+  min-height: 450px;
+  min-width: 1280px;
+}
+
+h1 {
+  @apply .text-5xl;
+  font-family: 'Gilroy-Bold', Helvetica, Arial, sans-serif;
+  font-weight: 200;
+  line-height: calc(50 / 48);
+}
+
+h2 {
+  @apply .text-4xl;
+  font-family: 'Gilroy-Bold', Helvetica, Arial, sans-serif;
+  font-weight: 200;
+  line-height: 1.083;
+}
+
+h3 {
+  font-family: 'Gilroy-Bold', Helvetica, Arial, sans-serif;
+  font-weight: 200;
+  @apply .text-2xl;
+  line-height: 1.25;
+}
+
+h4 {
+  font-family: 'Gilroy-Regular', Helvetica, Arial, sans-serif;
+  font-weight: 600;
+  @apply .text-xl;
+}
+
+p {
+  font-family: 'Nunito-Sans', Helvetica, Arial, sans-serif;
+  @apply .text-base;
+}
+
+p-small {
+  font-family: 'Nunito-Sans', Helvetica, Arial, sans-serif;
+  @apply .text-sm;
+}
+
+.logo-box {
+  height: 80px;
+}
+
+// Text Sizes:
+// h1 = 5x 48px
+
+// h2 = 4x 36px
+
+// h3 = 2x 24px
+
+// h4 = xl 20px
+
+// lg = 19.5
+
+// p: 19px
+
+// p= base 16
+
+// p = sm15
