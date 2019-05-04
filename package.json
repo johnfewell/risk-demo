@@ -1,0 +1,23 @@
+{
+  "name": "html-starter",
+  "version": "1.0.0",
+  "description": "A bare-bones starter template for front end projects",
+  "main": ".eslintrc.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^0.7.4",
+    "gulp": "^4.0.1",
+    "gulp-postcss": "^8.0.0",
+    "gulp-sass": "^4.0.2"
+  },
+  "rennovate": {
+    "automerge": true,
+    "major": {
+      "automerge": false
+    }
+  }
+}
